@@ -46,7 +46,7 @@ CAMPAIGN_NAME = " Pipeline_Readiness"
 from datetime import datetime,timedelta
 
 current_date = datetime.now().strftime("%Y-%m-%d")
-CAMPAIGN_NAM="{}_{}".format(CAMPAIGN_NAME,current_date)
+CAMPAIGN_NAME="{}_{}".format(CAMPAIGN_NAME,current_date)
 CLOSING_DATE = (datetime.now() + timedelta(weeks=2)).strftime("%Y-%m-%d")
 
 # ---------------- HELPERS (404 SAFE) ----------------
